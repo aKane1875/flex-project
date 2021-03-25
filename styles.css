@@ -54,22 +54,17 @@ h1, h2{
 .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .box {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    
+    flex-wrap: wrap;
 }
 
     .box img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
+        width: 300px;
         padding: 10px;
         height: auto;
     }
